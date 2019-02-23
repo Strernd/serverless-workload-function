@@ -1,0 +1,11 @@
+{
+  "name": "serverless-workload-function",
+  "version": "1.0.0",
+  "description": "A function that provides different workloads to benchmark serverless functions",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Bernd Strehl <bernd.strehl@gmail.com>",
+  "dependencies": {
+    "bcryptjs": "^2.4.3"
+  }
+}

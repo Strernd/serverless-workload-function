@@ -1,6 +1,6 @@
 {
   "name": "serverless-workload-function",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A function that provides different workloads to benchmark serverless functions",
   "main": "index.js",
   "license": "MIT",

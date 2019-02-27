@@ -13,7 +13,8 @@ const hashWorkload = async (config) => {
         time,
         plainText,
         rounds,
-        hash
+        hash,
+        version: process.version
     }
 }
 
@@ -35,7 +36,8 @@ const apiWorkload = async (config) => {
         time,
         min,
         max,
-        apiResponseTime
+        apiResponseTime,
+        version: process.version
     }
 }
 

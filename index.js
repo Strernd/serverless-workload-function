@@ -7,7 +7,7 @@ const hashWorkload = async (config) => {
     const hash = await bcrypt.hash(plainText, rounds);
     const end = + new Date();
     const time = end - start;
-    const version = (typeof process !== 'undfined')?  process.version : null;
+    const version = (typeof process !== 'undefined')?  process.version : null;
     return {
         start,
         end,
@@ -31,7 +31,7 @@ const apiWorkload = async (config) => {
     const apiResponseTime = await timeout(min, max);
     const end = + new Date();
     const time = end - start;
-    const version = (typeof process !== 'undfined')?  process.version : null;
+    const version = (typeof process !== 'undefined')?  process.version : null;
     return {
         start,
         end,
